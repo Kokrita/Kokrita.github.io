@@ -5,6 +5,7 @@
   }
   h1{
     font-weight: bold;
+    text-align: center;
   }
   ul li{
     list-style-type: none;
@@ -14,9 +15,11 @@
   img{
     width: 45%;
     height: 100%;
+    display: inline;
   }
   h1{
     font-weight: bold;
+    text-align: center;
   }
   ul li{
     list-style-type: none;

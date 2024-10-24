@@ -6,6 +6,9 @@
   h1{
     font-weight: bold;
   }
+  ul li a{
+    list-style-type: none;
+  }
 }
 @media (min-width: 541px){
   img{
@@ -14,5 +17,8 @@
   }
   h1{
     font-weight: bold;
+  }
+  ul li a{
+    list-style-type: none;
   }
 }

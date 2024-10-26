@@ -12,7 +12,6 @@
       border-bottom: 0px;
     }
     h1{
-      font-weight: bold;
       text-align: center;
       margin: 40px 0px;
     }
@@ -45,11 +44,13 @@
       border-width: 2px;
       border-style: solid;
       border-right: 0px;
+      min-width: 40%;
     }
     h1{
       font-weight: bold;
       text-align: center;
       margin: 5% 0px;
+      font-size: clamp(12px,2vw, 20px);
     }
     .text{
       display: flex;
@@ -64,10 +65,13 @@
     }
     a{
       text-align: right;
-      margin-bottom: 20px;
-      margin-right: 20px;
+      margin-bottom: clamp(8px, 2vw, 40px);
+      margin-right: 2vw;
+      font-size: clamp(10px, 1.5vw, 18px);
     }
     p{
-      margin: 0px 40px 15% 40px;
+      margin: 0px 40px;
+      font-size: clamp(10px, 1.5vw, 18px);
+      margin-bottom: clamp(8px, 10vw, 33px);
     }
   }
